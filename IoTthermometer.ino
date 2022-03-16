@@ -5,11 +5,6 @@
 
 DHT dht(DHTPIN,DHTTYPE);
 
-char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Wifi_Bjorn_Boven";
-char pass[] = "Patayastraat14";
-
-
 void setup() 
 {
   pinMode(2,INPUT_PULLUP);
